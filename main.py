@@ -1,10 +1,9 @@
 import keyboard, simpleaudio as sa
 
-number = (input("Please pick a number: "))
 
 while True:
     try:
-        user = int(number)
+        user = int(input("Please pick a number: "))
     except ValueError:
         print("This isn't a number")
 
